@@ -1,0 +1,63 @@
+html{scroll-behavior:smooth}
+
+.ProjectsBox {
+    background-color:rgb(15, 17, 31);
+    width: 100%;
+    height: 95.0%;
+    text-align: center;
+}
+
+.projectsList {
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+
+.Project {
+    margin-left: 5vw;
+    position: absolute;
+    margin-top: 10vh;
+    border-radius: 2%;
+    height: 58vh;
+    width: 20vw;
+    background-color:rgb(48, 48, 48); 
+}
+
+.Project_2 {
+    margin-left: 35vw;
+    position: absolute;
+    margin-top: 10vh;
+    border-radius: 2%;
+    height: 58vh;
+    width: 20vw;
+    background-color:rgb(48, 48, 48); 
+}
+
+.projectTitle {
+    font-size: 3vh;
+}
+.projectDescription {
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+    color: grey;
+    font-size: 2vh;
+}
+
+.projectLink {
+    position: absolute;
+    bottom: 1vh;
+    right: 1.5vw;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2vh;
+}
+.projectLink:hover {
+    color: rgb(196, 196, 255);
+}

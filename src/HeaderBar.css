@@ -1,0 +1,32 @@
+.headerBox {
+    width: 100%;
+    background-color: rgb(15, 17, 31);
+    color: white;
+    height: 7vh;
+}
+
+.directBox {
+    text-align: right;
+    margin-right: 8vw;
+}
+
+.directBTN {
+    font-size: 3vh;
+    margin-left: 0.1vh;
+    background-color: rgb(15, 17, 31);
+    color: white;
+    border: solid 2px black;
+    padding: 1.45vh 2vw;
+    border-radius: 1vh;
+}
+
+.directBTN:hover {
+    border: solid 2px white;
+    background-color: rgb(15, 17, 31);
+    cursor: grab;
+}
+
+.directBTN:active {
+    border: solid 2px white;
+    color: rgb(255, 208, 208);
+}

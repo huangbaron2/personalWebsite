@@ -1,0 +1,75 @@
+.frontBox {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0px black;
+    background-color: rgb(15, 17, 31);    
+    height: 87.6%;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+	0% {
+        opacity: 0%;
+	}
+	100% {
+        opacity: 100%;
+	}
+}
+
+.mainName {
+    text-align: center;
+    top: 15vh;
+    position: absolute;
+    font-size: 4vh;
+    background-color: rgb(15, 17, 31);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    height: 70vh;
+}
+
+@keyframes bounce {
+    0%   {  margin-top: 17vh; }
+    40% {  margin-top: 20vh; }
+    100% {  margin-top: 17vh; }
+}
+
+.jmpPBTN {
+    position: absolute;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 17, 31);
+    border-radius: 50%;
+    cursor: default;
+}
+
+.jmpPBTN_a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    width: 0.5vh;
+}
+
+.resumeBTN {
+    font-style: italic;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: white;
+}
+
+.resumeBTN:hover {
+    color: rgb(195, 195, 255);
+}
